@@ -3,10 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="S00233718">
+    <meta name="description" content="Skye Jewelry's homepage. Has a selection of trending products.">
+    <meta name="keywords" content="Skye Jewelry, home, jewelry, Skye, shop, e-shop, rings, necklaces, earrings, hot">
     <title>Home | Skye Jewelry</title>
+    <link rel="icon" type="image/x-icon" href="favicon/webfavicon.ico">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
 </head>
 <body>
+    <nav class="navbar navbar-light navbar-expand-lg edge-background static-top border-bottom-gold">
+        <div class="container-fluid">
+            <a class="navbar-brand nav-link active" href="#" aria-current="page"><img src="images/weblogo.png" alt="Home" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="ringshop.html">Rings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Necklaces</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Earrings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Special Offers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" id="userdetails" href="userdetails.html">User Details</a>
+                    </li>
+                      <li class="nav-item">
+                      <a class="nav-link"  id="loginlogout" href="login.html">Login</a>
+                    </li>
+                    <li>
+                        <div class="btn-toolbar">
+                            <a class="nav-item nav-link" href="checkout.html" id="checkoutBtn">
+                            <button type="button" class="btn btn-secondary ml-2">
+                              Checkout <span class="badge badge-light" id="checkout"></span>
+                            </button>
+                            </a>
+                        </div> 
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+    <main id="main-width">
+        <h1 class="h1 text-center">Skye Jewelry</h1>
+        <p class="text-center text-wrap mx-5 text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et odio pellentesque diam volutpat commodo sed. Semper viverra nam libero justo laoreet sit. Et sollicitudin ac orci phasellus egestas tellus rutrum tellus pellentesque. Ac orci phasellus egestas tellus rutrum. Rhoncus mattis rhoncus urna neque viverra. Elementum curabitur vitae nunc sed velit dignissim sodales ut eu. Sit amet aliquam id diam maecenas ultricies mi eget.</p>
+        <p class="text-center text-wrap mx-5 text-secondary">Because this website reads from a local JSON file, you must run it within a live server. The JS code otherwise won't be able to reach it -- and all products are dependent on it.</p>
+        <div class="my-5"></div>
+        <h2 class="h2 text-start mx-2">What's Hot</h2>
+        <div class="container-fluid">
+            <div class="row align-items-start" id="hot-section">
+                <!-- Won't be populated unless the website is running within a live server -->
+            </div>
+        </div>
+    </main>
+    <footer class="edge-background border-top-gold">
+        <p class="text-center">Copyright &#169; 2023 Skye Jewelry</p>
+        <div class="mx-1 container-fluid">
+            <div class="row align-items-start">
+                <div class="col-md-4 text-start text-secondary text-wrap border-end border-secondary">
+                    <p class="text-dark">Postal Address:</p>
+                    <p>Leinster House</p>
+                    <p>Kildare St.</p>
+                    <p>Dublin 2</p>
+                    <p>D02 TK75</p>
+                </div>
+                <div class="col-md-4 text-start text-secondary text-wrap border-end border-secondary">
+                    <p>AI engine used to generate most of the images (Stable Diffusion):</p>
+                    <p>https://github.com/Stability-AI/StableDiffusion</p>
+                    <p>Lorem ipsum generator used:</p>
+                    <p>https://loremipsum.io/generator</p>
+                    <p>This is a college project and not a real e-shop.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="js/loginManager.min.js"></script>
+    <script src="js/trending.min.js"></script>
+    <script src="js/cart.min.js"></script>
 </body>
 </html>

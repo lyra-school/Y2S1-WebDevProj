@@ -1,0 +1,26 @@
+$background-color:#f6f6f6;
+$border-color:#ffbc02;
+
+.edge-background {
+    background-color: $background-color;
+}
+
+.border-top-gold {
+    border-top: $border-color solid 2px;
+}
+
+.border-bottom-gold {
+    border-bottom: $border-color solid 2px;
+}
+
+#main-width {
+    margin:auto;
+    width:80%;
+}
+
+@media (max-width:576px) {
+    #main-width {
+        width: 100%;
+    }
+}
+

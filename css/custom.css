@@ -1,0 +1,22 @@
+.edge-background {
+  background-color: #f6f6f6;
+}
+
+.border-top-gold {
+  border-top: #ffbc02 solid 2px;
+}
+
+.border-bottom-gold {
+  border-bottom: #ffbc02 solid 2px;
+}
+
+#main-width {
+  margin: auto;
+  width: 80%;
+}
+
+@media (max-width: 576px) {
+  #main-width {
+    width: 100%;
+  }
+}/*# sourceMappingURL=custom.css.map */
